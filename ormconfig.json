@@ -1,0 +1,16 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "andrea",
+    "password": "prova123.",
+    "database": "postgres",
+    "schema": "public",
+    "migrations": [
+        "src/database/migrations/**/*.{ts,js}"
+    ],
+    "entities": [
+        "src/database/entities/**/*.{ts,js}"
+    ],
+    "synchronize": false
+}
